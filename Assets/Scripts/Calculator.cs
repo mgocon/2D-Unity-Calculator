@@ -11,14 +11,14 @@ public class Calculator : MonoBehaviour
 
     private double result = 0.0;
 
-/// <summary>
-/// The `OnButtonClick` function in C# handles different button clicks by either calculating the result,
-/// clearing the input, backspacing, or appending the button value to the current input.
-/// </summary>
-/// <param name="buttonValue">The `buttonValue` parameter is a string that represents the value of the
-/// button that was clicked in a user interface. The method `OnButtonClick` is used to handle different
-/// actions based on the value of the button clicked. If the button value is "=", it calculates the
-/// result, if it is "</param>
+    /// <summary>
+    /// The `OnButtonClick` function in C# handles different button clicks by either calculating the result,
+    /// clearing the input, backspacing, or appending the button value to the current input.
+    /// </summary>
+    /// <param name="buttonValue">The `buttonValue` parameter is a string that represents the value of the
+    /// button that was clicked in a user interface. The method `OnButtonClick` is used to handle different
+    /// actions based on the value of the button clicked. If the button value is "=", it calculates the
+    /// result, if it is "</param>
 
     public void OnButtonClick(string buttonValue)
     {
@@ -45,10 +45,10 @@ public class Calculator : MonoBehaviour
         }
     }
 
-/// <summary>
-/// The CalculateResult function in C# handles mathematical calculations, including modulo operations
-/// and percentage calculations.
-/// </summary>
+    /// <summary>
+    /// The CalculateResult function in C# handles mathematical calculations, including modulo operations
+    /// and percentage calculations.
+    /// </summary>
 
     public void CalculateResult()
     {
@@ -77,11 +77,11 @@ public class Calculator : MonoBehaviour
         }
     }
 
-/// <summary>
-/// The HandleModulo function in C# splits an input string by "mod" to calculate the modulo operation
-/// between two operands and updates the display with the result or an error message if the input is
-/// invalid.
-/// </summary>
+    /// <summary>
+    /// The HandleModulo function in C# splits an input string by "mod" to calculate the modulo operation
+    /// between two operands and updates the display with the result or an error message if the input is
+    /// invalid.
+    /// </summary>
     private void HandleModulo()
     {
         try
