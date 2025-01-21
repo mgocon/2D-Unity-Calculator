@@ -143,4 +143,5 @@ public class Calculator : MonoBehaviour
             Debug.LogError("Display Text is not assigned in the Inspector.");
         }
     }
+    //made changes here as mgocon on linux device
 }
